@@ -54,10 +54,9 @@ const Tags = styled.ul`
 const Tag = styled.li`
   background: var(--color-gray-300);
   color: var(--color-gray-800);
-  display: inline;
+  display: inline-block;
   font-size: 0.875rem;
   font-weight: 475;
-  line-height: 2;
   margin-right: 8px;
   padding: 4px 8px;
   :last-of-type {
